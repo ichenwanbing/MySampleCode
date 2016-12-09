@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACAD1D7A1D92A69E0066762B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAD1D791D92A69E0066762B /* main.m */; };
+		ACAD1D7D1D92A69E0066762B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAD1D7C1D92A69E0066762B /* AppDelegate.m */; };
+		ACAD1D801D92A69E0066762B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAD1D7F1D92A69E0066762B /* ViewController.m */; };
+		ACAD1D851D92A69E0066762B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAD1D841D92A69E0066762B /* Assets.xcassets */; };
+		ACAD1D881D92A69E0066762B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAD1D861D92A69E0066762B /* LaunchScreen.storyboard */; };
+		C299ECF51D9BE0A5001CC083 /* TTAddressBookHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = C299ECF01D9BE0A5001CC083 /* TTAddressBookHandle.m */; };
+		C299ECF61D9BE0A5001CC083 /* TTGetAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = C299ECF21D9BE0A5001CC083 /* TTGetAddressBook.m */; };
+		C299ECF71D9BE0A5001CC083 /* TTPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C299ECF41D9BE0A5001CC083 /* TTPersonModel.m */; };
+		C2D530DB1D980C3C00B4B567 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D530DA1D980C3C00B4B567 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACAD1D751D92A69E0066762B /* TTAddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTAddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAD1D791D92A69E0066762B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACAD1D7B1D92A69E0066762B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACAD1D7C1D92A69E0066762B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACAD1D7E1D92A69E0066762B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACAD1D7F1D92A69E0066762B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACAD1D841D92A69E0066762B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACAD1D871D92A69E0066762B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACAD1D891D92A69E0066762B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C299ECEF1D9BE0A5001CC083 /* TTAddressBookHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAddressBookHandle.h; sourceTree = "<group>"; };
+		C299ECF01D9BE0A5001CC083 /* TTAddressBookHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAddressBookHandle.m; sourceTree = "<group>"; };
+		C299ECF11D9BE0A5001CC083 /* TTGetAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGetAddressBook.h; sourceTree = "<group>"; };
+		C299ECF21D9BE0A5001CC083 /* TTGetAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGetAddressBook.m; sourceTree = "<group>"; };
+		C299ECF31D9BE0A5001CC083 /* TTPersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPersonModel.h; sourceTree = "<group>"; };
+		C299ECF41D9BE0A5001CC083 /* TTPersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPersonModel.m; sourceTree = "<group>"; };
+		C2D530D91D980C3C00B4B567 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C2D530DA1D980C3C00B4B567 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACAD1D721D92A69E0066762B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACAD1D6C1D92A69E0066762B = {
+			isa = PBXGroup;
+			children = (
+				ACAD1D771D92A69E0066762B /* TTAddressBook */,
+				ACAD1D761D92A69E0066762B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACAD1D761D92A69E0066762B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD1D751D92A69E0066762B /* TTAddressBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACAD1D771D92A69E0066762B /* TTAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				C299ECEE1D9BE0A5001CC083 /* TTContact */,
+				ACAD1D7B1D92A69E0066762B /* AppDelegate.h */,
+				ACAD1D7C1D92A69E0066762B /* AppDelegate.m */,
+				ACAD1D7E1D92A69E0066762B /* ViewController.h */,
+				ACAD1D7F1D92A69E0066762B /* ViewController.m */,
+				C2D530D91D980C3C00B4B567 /* DetailViewController.h */,
+				C2D530DA1D980C3C00B4B567 /* DetailViewController.m */,
+				ACAD1D841D92A69E0066762B /* Assets.xcassets */,
+				ACAD1D861D92A69E0066762B /* LaunchScreen.storyboard */,
+				ACAD1D891D92A69E0066762B /* Info.plist */,
+				ACAD1D781D92A69E0066762B /* Supporting Files */,
+			);
+			path = TTAddressBook;
+			sourceTree = "<group>";
+		};
+		ACAD1D781D92A69E0066762B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD1D791D92A69E0066762B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C299ECEE1D9BE0A5001CC083 /* TTContact */ = {
+			isa = PBXGroup;
+			children = (
+				C299ECEF1D9BE0A5001CC083 /* TTAddressBookHandle.h */,
+				C299ECF01D9BE0A5001CC083 /* TTAddressBookHandle.m */,
+				C299ECF11D9BE0A5001CC083 /* TTGetAddressBook.h */,
+				C299ECF21D9BE0A5001CC083 /* TTGetAddressBook.m */,
+				C299ECF31D9BE0A5001CC083 /* TTPersonModel.h */,
+				C299ECF41D9BE0A5001CC083 /* TTPersonModel.m */,
+			);
+			path = TTContact;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACAD1D741D92A69E0066762B /* TTAddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAD1D8C1D92A69E0066762B /* Build configuration list for PBXNativeTarget "TTAddressBook" */;
+			buildPhases = (
+				ACAD1D711D92A69E0066762B /* Sources */,
+				ACAD1D721D92A69E0066762B /* Frameworks */,
+				ACAD1D731D92A69E0066762B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTAddressBook;
+			productName = TTAddressBook;
+			productReference = ACAD1D751D92A69E0066762B /* TTAddressBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACAD1D6D1D92A69E0066762B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Yoga;
+				TargetAttributes = {
+					ACAD1D741D92A69E0066762B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TP5SDDJ6KA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ACAD1D701D92A69E0066762B /* Build configuration list for PBXProject "TTAddressBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACAD1D6C1D92A69E0066762B;
+			productRefGroup = ACAD1D761D92A69E0066762B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACAD1D741D92A69E0066762B /* TTAddressBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACAD1D731D92A69E0066762B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAD1D881D92A69E0066762B /* LaunchScreen.storyboard in Resources */,
+				ACAD1D851D92A69E0066762B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACAD1D711D92A69E0066762B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C299ECF71D9BE0A5001CC083 /* TTPersonModel.m in Sources */,
+				C299ECF51D9BE0A5001CC083 /* TTAddressBookHandle.m in Sources */,
+				ACAD1D801D92A69E0066762B /* ViewController.m in Sources */,
+				C299ECF61D9BE0A5001CC083 /* TTGetAddressBook.m in Sources */,
+				ACAD1D7D1D92A69E0066762B /* AppDelegate.m in Sources */,
+				ACAD1D7A1D92A69E0066762B /* main.m in Sources */,
+				C2D530DB1D980C3C00B4B567 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACAD1D861D92A69E0066762B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAD1D871D92A69E0066762B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACAD1D8A1D92A69E0066762B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACAD1D8B1D92A69E0066762B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACAD1D8D1D92A69E0066762B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TP5SDDJ6KA;
+				INFOPLIST_FILE = TTAddressBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wuzhongtian.TTAddressBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACAD1D8E1D92A69E0066762B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TP5SDDJ6KA;
+				INFOPLIST_FILE = TTAddressBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wuzhongtian.TTAddressBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACAD1D701D92A69E0066762B /* Build configuration list for PBXProject "TTAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAD1D8A1D92A69E0066762B /* Debug */,
+				ACAD1D8B1D92A69E0066762B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAD1D8C1D92A69E0066762B /* Build configuration list for PBXNativeTarget "TTAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAD1D8D1D92A69E0066762B /* Debug */,
+				ACAD1D8E1D92A69E0066762B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACAD1D6D1D92A69E0066762B /* Project object */;
+}
